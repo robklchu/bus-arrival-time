@@ -12,7 +12,6 @@
 import sys
 import urllib.request
 import json
-from datetime import datetime as dt
 
 if len(sys.argv) != 3:
     raise SystemExit("Usage: ./bus-arrival.py bus_stop bus_route")
